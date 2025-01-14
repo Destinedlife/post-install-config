@@ -22,19 +22,16 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Acknowladge Agent Panel vs Admin panel
+- Configure Roles
+- Add new agents
+- Configure SLAs
+- Configure Teams
 
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+If you are continuing from that last tutorial remember to start your VM in Azure portal and reconnect to the VM with your newly install osTicket.
 </p>
 <br />
 
@@ -42,7 +39,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+   In side your VM login into osTicket admin/analyst with this link [osTicket-Admin Login](http://localhost/osTicket/scp/login.php). Login using the username and password we created in the previous tutorial. At the top right corner of the webpage we can switch between the admin and agent panel. The first thing we are going to configure are roles. Roles give team members certain access to tickets and tasks and can be assgined to agents, teams, and departments.  Go to Admin Panel > Agents > Roles. Here we can view all of ours roles and if click on a role and go to permissions we can see what that role is allowed to do with tickets and tasks. From the roles page we can also create new roles. CLick add new role and name it supreme admin. On the permissions page check all the boxes to give the supreme adimin access to everything in tickets, tasks, and knowledgebase. Then click "add role".
+
 </p>
 <br />
 
@@ -50,6 +49,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we will configure departments. Go to Admin panel > Agents > Departments. Here we can view, edit and create new departments. Click add new Department. Name the deparment Sysadmins. Under setting we can aslo assign SLAs, which we will do later. In the access panel you can assign agents to the department. For now click "create dept".
 </p>
 <br />
