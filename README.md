@@ -49,7 +49,7 @@ If you are continuing from that last tutorial remember to start your VM in Azure
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next we will configure departments. Go to Admin panel > Agents > Departments. Here we can view, edit and create new departments. Click add new Department. Name the deparment Sysadmins. Under setting we can aslo assign SLAs, which we will do later. In the access panel you can assign agents to the department. For now click "create dept".
+Next we will configure departments. Go to Admin panel > Agents > Departments. Here we can view, edit and create new departments. Click add new Department. Name the deparment Sysadmins. Under setting we can aslo assign SLAs, which we will do later. In the access panel you can assign agents to the department. For now click "create dept". Lastly, delete the maintence department, since it won't be used in this lab.
 </p>
 <br />
 
