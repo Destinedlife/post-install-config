@@ -93,7 +93,7 @@ Now we create a User (customers). Go to agent panel > Users > add new. Name the 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next we'll configure 3 SLAs (Service Level Agreements). An SLAs are an agreement/plan to do certain actions based on the serverity of a ticket. The serverity is related to the business impact of a problem.  Go to admin panel > Manage > SLA. Click " New SLA Plan" create the following:
+Next we'll configure 3 SLAs (Service Level Agreements). An SLAs are an agreement/plan to do certain actions based on the serverity of a ticket. The serverity is related to the business impact.  Go to admin panel > Manage > SLA. Click " New SLA Plan" create the following:
 
    |  | Sev-A |  Sev-B | Sev-c |
 | ------------- | ------------- | ------------- | ------------- |
@@ -101,7 +101,9 @@ Next we'll configure 3 SLAs (Service Level Agreements). An SLAs are an agreement
 | Schedule | 24/7  | 24/7   | Mon - Friday  |
 
 Sev-a: high impact
+
 Sev-b: Medium impact
+
 sev-c: Low impact
    
 </p>
