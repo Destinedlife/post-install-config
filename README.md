@@ -128,8 +128,6 @@ In the next tutorial we will run through proccessing tickets
 
 If you want take a break and save money in your azure account
 
-disconnect from your VM
-
 Go back to Azure portal > Viritual maschine then select your VM and click stop.
 
 When you are ready to continue select start on this page.
